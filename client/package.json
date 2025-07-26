@@ -5,46 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "build": "npx tsc -b && npx vite build",
     "preview": "vite preview",
     "start": "vite",
+    "lint": "eslint .",
     "test": "vitest"
   },
-{
-  "scripts": {
-    "build": "npx tsc -b && npx vite build",
-    "dev": "vite",
-    "preview": "vite preview"
-  }
-}
-
-{
-  "name": "campus-link",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "npx tsc -b && npx vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
-    "@vitejs/plugin-react": "^4.0.0",
-    "typescript": "^5.0.0",
-    "vite": "^4.4.0"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  }
-}
-
-
-  
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -64,5 +30,8 @@
     "typescript-eslint": "^8.35.1",
     "vite": "^7.0.4",
     "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
