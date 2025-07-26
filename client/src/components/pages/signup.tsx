@@ -515,13 +515,12 @@ function App() {
         {currentView === 'login' ? (
           <>
             {/* Demo Credentials Info */}
-            <div className="demo-credentials">
-              <div className="demo-title">Demo Credentials</div>
+            {/* <div className="demo-credentials">
+              <div className="demo-title"></div>
               <div className="demo-creds">
-                Student: student@sece.ac.in / student@123<br />
-                Staff: staff@sece.ac.in / staff@123
+                
               </div>
-            </div>
+            </div> */}
 
             {/* User Type Toggle */}
             <div className="toggle">
